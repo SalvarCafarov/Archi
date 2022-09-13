@@ -2,12 +2,11 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   background-color: #18191B;
   color: white;
 }
@@ -28,56 +27,38 @@ header {
   left: 0;
   width: 100%;
 }
-
 header #navbar {
   outline: none;
   overflow: auto;
-  -webkit-transition-timing-function: ease-out;
-          transition-timing-function: ease-out;
-  -webkit-transition: 0.5s;
+  transition-timing-function: ease-out;
   transition: 0.5s;
   background: transparent;
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   font-weight: 600;
   padding: 1.5em;
   z-index: 30;
 }
-
 header #navbar .navbar-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 header #navbar .navbar-container .logo-archi {
-  -webkit-transition: 1s;
   transition: 1s;
   margin-left: 0.4em;
   background-size: cover;
   width: 15%;
 }
-
 header #navbar .navbar-container .logo-archi img {
   font-size: 2em;
   vertical-align: middle;
 }
-
 header #navbar .navbar-container .navbar-list {
-  -webkit-transition: 0.7s;
   transition: 0.7s;
   text-decoration: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 70%;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
+  justify-content: right;
 }
-
 header #navbar .navbar-container .navbar-list li {
   cursor: pointer;
   color: white;
@@ -85,21 +66,16 @@ header #navbar .navbar-container .navbar-list li {
   margin: 0.5em 1.5em;
   font-size: 0.75em;
 }
-
 header #navbar .navbar-container .navbar-list li::marker {
   color: #FFDE00;
 }
-
 header #navbar .navbar-container .navbar-list li:first-child {
   list-style-type: none;
 }
-
 header #navbar .navbar-container .navbar-list li:hover {
   color: #FFDE00;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
-
 header #navbar .navbar-container .navbar-list li:last-child {
   display: none;
 }
@@ -109,7 +85,7 @@ main {
   width: 100%;
   background-position: 100%;
   margin-top: -2.5%;
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -119,84 +95,53 @@ main {
   padding-bottom: 5em;
   min-height: 100vh;
   color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   text-align: center;
 }
-
 main .carusel {
-  -webkit-transition-timing-function: ease-in-out;
-          transition-timing-function: ease-in-out;
-  -webkit-transition-delay: 1.25s;
-          transition-delay: 1.25s;
-  -webkit-transition-duration: 1s !important;
-          transition-duration: 1s !important;
+  transition-timing-function: ease-in-out;
+  transition-delay: 1.25s;
+  transition-duration: 1s !important;
   padding: 2%;
   text-transform: uppercase;
   line-height: 72px;
   font-weight: bold;
 }
-
 main .carusel h1 {
   font-size: 70px;
 }
-
 main .carousel-foot {
-  -webkit-transition-timing-function: ease-in-out;
-          transition-timing-function: ease-in-out;
-  -webkit-transition-delay: 1.4s;
-          transition-delay: 1.4s;
-  -webkit-transition-duration: 1s !important;
-          transition-duration: 1s !important;
+  transition-timing-function: ease-in-out;
+  transition-delay: 1.4s;
+  transition-duration: 1s !important;
   font-size: 0.9em;
 }
-
 main .big-logo {
-  -webkit-transition-timing-function: ease-in-out;
-          transition-timing-function: ease-in-out;
-  -webkit-transition-delay: 1.1s;
-          transition-delay: 1.1s;
-  -webkit-transition-duration: 1s !important;
-          transition-duration: 1s !important;
+  transition-timing-function: ease-in-out;
+  transition-delay: 1.1s;
+  transition-duration: 1s !important;
 }
-
 main .big-logo:root {
   background-attachment: fixed;
 }
-
 main .small-logo img {
-  -webkit-transition-timing-function: ease-in-out;
-          transition-timing-function: ease-in-out;
-  -webkit-transition-delay: 1.9s;
-          transition-delay: 1.9s;
-  -webkit-transition-duration: 1s !important;
-          transition-duration: 1s !important;
+  transition-timing-function: ease-in-out;
+  transition-delay: 1.9s;
+  transition-duration: 1s !important;
   padding-top: 2%;
 }
-
 main h5 {
-  -webkit-transition-timing-function: ease-in-out;
-          transition-timing-function: ease-in-out;
-  -webkit-transition-delay: 1.9s;
-          transition-delay: 1.9s;
-  -webkit-transition-duration: 1s !important;
-          transition-duration: 1s !important;
+  transition-timing-function: ease-in-out;
+  transition-delay: 1.9s;
+  transition-duration: 1s !important;
   color: #68af3b;
   font-size: 0.7em;
 }
-
 main h6 {
-  -webkit-transition-timing-function: ease-in-out;
-          transition-timing-function: ease-in-out;
-  -webkit-transition-delay: 1.9s;
-          transition-delay: 1.9s;
-  -webkit-transition-duration: 1s !important;
-          transition-duration: 1s !important;
+  transition-timing-function: ease-in-out;
+  transition-delay: 1.9s;
+  transition-duration: 1s !important;
   margin-top: 0.5%;
   margin-bottom: 0.5%;
   font-size: 0.5em;
@@ -225,7 +170,7 @@ main h6 {
 }
 
 .menu {
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   overflow: hidden;
   background: #111;
   position: fixed;
@@ -237,30 +182,23 @@ main h6 {
   font-size: 1.2em;
   height: 0;
   opacity: 0;
-  -webkit-transition: 0.7s cubic-bezier(0.74, -0.03, 0.83, 0.67);
   transition: 0.7s cubic-bezier(0.74, -0.03, 0.83, 0.67);
 }
-
 .menu img {
   padding: 3em;
 }
-
 .menu ul li {
   list-style-type: none;
   padding: 0.5em;
 }
-
 .menu ul li a {
   color: white;
   text-decoration: none;
 }
-
 .menu ul li a:hover {
   color: #FFDE00;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
-
 .menu .menu-button {
   padding-top: 4%;
   cursor: pointer;
@@ -270,23 +208,15 @@ main h6 {
   font-size: 0.75em;
   text-decoration: none;
 }
-
 .menu .menu-button:hover {
   color: #FFDE00 !important;
-  -webkit-transition: 0.7s;
   transition: 0.7s;
 }
-
 .menu .social-media {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin-top: 10%;
 }
-
 .menu .social-media li a {
   text-decoration: none;
 }
@@ -299,33 +229,24 @@ main h6 {
   text-align: center;
   padding: 2em 0;
 }
-
 .web-powered p:first-of-type {
   margin: auto;
   width: 80%;
-  -webkit-transition-timing-function: ease-in-out;
-          transition-timing-function: ease-in-out;
-  -webkit-transition-delay: 0.1s;
-          transition-delay: 0.1s;
-  -webkit-transition-duration: 0.7s !important;
-          transition-duration: 0.7s !important;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0.1s;
+  transition-duration: 0.7s !important;
   font-weight: 200;
-  background: -webkit-gradient(linear, left top, left bottom, from(#ffd003), to(#3e6ecc));
   background: linear-gradient(#ffd003, #3e6ecc);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 10em;
 }
-
 .web-powered p:last-of-type {
   margin: auto;
   width: 80%;
-  -webkit-transition-timing-function: ease-in-out;
-          transition-timing-function: ease-in-out;
-  -webkit-transition-delay: 0.1s;
-          transition-delay: 0.1s;
-  -webkit-transition-duration: 0.7s !important;
-          transition-duration: 0.7s !important;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0.1s;
+  transition-duration: 0.7s !important;
   font-weight: 300;
   font-size: 2.3em;
   margin-top: -0.5em;
@@ -337,7 +258,6 @@ main h6 {
   margin: auto;
   padding-bottom: 10%;
 }
-
 .feedback .f-header {
   text-align: center;
   padding: 3em;
@@ -345,15 +265,12 @@ main h6 {
   letter-spacing: 0;
   font-weight: 500;
 }
-
 .feedback .owl-carousel2 {
   overflow-x: hidden;
   margin: auto;
   width: 95%;
-  -webkit-transition-delay: 500;
-          transition-delay: 500;
+  transition-delay: 500;
 }
-
 .feedback .card {
   margin: auto;
   width: 85%;
@@ -365,22 +282,18 @@ main h6 {
   text-align: center;
   font-size: 0.75em;
 }
-
 .feedback .card .star .star-item {
   margin: 1em 0;
   letter-spacing: 7px;
   color: #FFDE00;
 }
-
 .feedback .card p:first-of-type {
   line-height: 30px;
 }
-
 .feedback .card p:last-of-type {
   font-size: 0.75em;
   margin: 0.5em 0;
 }
-
 .feedback .card p:last-of-type::before {
   content: "by ";
   opacity: 0.7;
@@ -391,70 +304,48 @@ main h6 {
   margin: auto;
   padding-top: 7%;
 }
-
 .reason h2 {
   text-align: center;
   font-size: 30px;
   font-weight: 500;
 }
-
 .reason .boxes {
   padding-top: 6%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
-
 .reason .boxes .box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 33.33333%;
   padding: 25px 25px 25px 0;
 }
-
 .reason .boxes .box .box-icon {
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
+  transition-duration: 1s;
   background-size: cover;
 }
-
 .reason .boxes .box .box-icon .icon-class {
   border-radius: 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   width: 60px;
   height: 60px;
   visibility: visible;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f28704), to(#ffd003));
-  background: linear-gradient(to bottom, #f28704 0%, #ffd003 100%);
+  background: linear-gradient(to bottom, rgb(242, 135, 4) 0%, rgb(255, 208, 3) 100%);
 }
-
 .reason .boxes .box .box-icon .icon-class i {
   text-align: center;
   height: auto;
   font-size: 40px;
 }
-
 .reason .boxes .box .box-text {
   padding-left: 18px;
 }
-
 .reason .boxes .box .box-text h4 {
   font-size: 18px;
   font-weight: 500;
   margin-bottom: 10px;
 }
-
 .reason .boxes .box .box-text p {
   font-weight: 300;
   font-size: 15px;
@@ -462,53 +353,37 @@ main h6 {
 }
 
 .premium {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   text-align: center;
 }
-
 .premium h1 {
   font-size: 30px;
   font-weight: 500;
   padding: 5% 0;
 }
-
 .premium h2 {
   font-size: 32px;
   font-weight: 300;
   padding: 5% 0;
 }
-
 .premium .boxes {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  justify-content: space-evenly;
 }
-
 .premium .boxes .box {
   width: 40%;
   padding: 0 10px;
 }
-
 .premium .boxes .box p {
   font-weight: 500;
   font-size: 16px;
   padding: 8px;
 }
-
 .premium .boxes .box img {
   width: 100%;
 }
-
 .premium span {
   font-size: 25px;
   color: #FFDE00;
@@ -538,40 +413,29 @@ main h6 {
     font-size: 5vw;
   }
   .premium .boxes {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .premium .boxes .box {
     margin: auto;
     width: 90%;
   }
 }
-
 @media only screen and (max-width: 965px) {
   .reason {
     padding-top: 12%;
   }
   .reason .boxes {
     padding-top: 12%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .reason .boxes .box {
     width: 90%;
   }
   .premium .boxes {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .premium .boxes .box {
     margin: auto;
     width: 90%;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
